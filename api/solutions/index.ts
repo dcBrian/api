@@ -1,0 +1,48 @@
+import { VercelRequest, VercelResponse } from '@vercel/node';
+
+export default (req: VercelRequest, res: VercelResponse) => {
+    return res.json(solutions);
+};
+
+const solutions = [
+    { id: 1, word: 'ninja' },
+    { id: 2, word: 'spade' },
+    { id: 3, word: 'pools' },
+    { id: 4, word: 'drive' },
+    { id: 5, word: 'relax' },
+    { id: 6, word: 'times' },
+    { id: 7, word: 'train' },
+    { id: 8, word: 'cores' },
+    { id: 9, word: 'pours' },
+    { id: 10, word: 'blame' },
+    { id: 11, word: 'banks' },
+    { id: 12, word: 'phone' },
+    { id: 13, word: 'bling' },
+    { id: 14, word: 'coins' },
+    { id: 15, word: 'hello' },
+    { id: 16, word: 'frame' },
+    { id: 17, word: 'fruit' },
+    { id: 18, word: 'glass' },
+    { id: 19, word: 'grass' },
+    { id: 20, word: 'green' },
+    { id: 21, word: 'group' },
+    { id: 22, word: 'guide' },
+    { id: 23, word: 'heart' },
+    { id: 24, word: 'horse' },
+    { id: 25, word: 'hotel' },
+    { id: 26, word: 'house' },
+    { id: 27, word: 'issue' },
+    { id: 28, word: 'japan' },
+    { id: 29, word: 'knife' },
+    { id: 30, word: 'lunch' },
+    { id: 31, word: 'major' },
+    { id: 32, word: 'metal' },
+    { id: 33, word: 'model' },
+    { id: 34, word: 'money' },
+    { id: 35, word: 'month' },
+    { id: 36, word: 'motor' },
+    { id: 37, word: 'mouth' },
+    { id: 38, word: 'music' },
+    { id: 39, word: 'night' },
+    { id: 40, word: 'noise' },
+];
